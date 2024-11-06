@@ -4,6 +4,13 @@ O **pizza.shop** é um projeto que funciona como um dashboard completo para rest
 
 ## 📈 Tecnologias Utilizadas
 
-- **Front-end**: React, React-Router-Dom, Shadcn-ui
+- **Front-end**: React, React-Router-Dom, Shadcn-ui, React-hook-form
+
+## Funcionalidades
+
+- Cadastro de conta
+- Login via magic link
+- Troca de temas [Light, Dark]
+- Controle de pedidos
 
 ## Projeto em desenvolvimento
