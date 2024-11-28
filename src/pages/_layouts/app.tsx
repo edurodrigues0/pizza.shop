@@ -16,8 +16,14 @@ export function AppLayout() {
           const status = error.response?.status
           const code = error.response?.data.code
 
-          if (status === 401 && code === 'UNAUTHORIZED') {
+          if (status === 401 && code === 'UNAUTHORIZED.') {
             navigate('/sign-in', { replace: true })
+          }
+
+          if (status === 400) {
+            navigate('/sign-in', { replace: true })
+          } else {
+            throw error
           }
         }
       },
