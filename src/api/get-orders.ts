@@ -1,6 +1,6 @@
 import { api } from '@/lib/axios'
 
-interface Order {
+export interface Order {
   orderId: string
   createdAt: string
   status: 'pending' | 'canceled' | 'processing' | 'delivering' | 'delivered'
