@@ -3,11 +3,13 @@ import { http, HttpResponse } from 'msw'
 import type { UpdateProfileBody } from '../update-profile'
 
 export const updateProfileMock = http.put<never, UpdateProfileBody>(
-  '/managed-restaurant',
+  '/profile',
   async ({ request }) => {
-    const { name } = await request.json()
+    const { name, description } = await request.json()
 
-    if (name === 'Rocket Pizza') {
+    console.log(name, description)
+
+    if (name === 'Rocket Pizza' && description !== null) {
       return new HttpResponse(null, { status: 204 })
     }
 
