@@ -58,7 +58,8 @@ O **pizza.shop** é um projeto que funciona como um dashboard completo para rest
    ```
 
 4. Inicie o servidor de desenvolvimento que se encontra:
-  [Server](https://github.com/edurodrigues0/pizza.shop-api)
+
+  - [Server](https://github.com/edurodrigues0/pizza.shop-api)
 
    ```bash
    npm run dev
