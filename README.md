@@ -80,4 +80,4 @@ Para mais informações sobre as tecnologias utilizadas, acesse seus respectivos
 
 ---
 
-Desenvolvido com ❤️ por [Eduardo Rodrigues].
+Desenvolvido com ❤️ por Eduardo Rodrigues.
